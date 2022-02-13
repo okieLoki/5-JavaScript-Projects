@@ -1,0 +1,27 @@
+/** @format */
+
+body {
+  color: aliceblue !important;
+  background-color: black !important;
+}
+.container-1 {
+  border: 1px rgba(255, 255, 255, 0.562) solid;
+  margin: 4% 20% 10% 20%;
+  padding: 15px;
+  text-align: center;
+}
+.flex-box-container-1 {
+  border: 1px rgba(255, 255, 255, 0.425) solid;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.flex-box-container-1 div {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
